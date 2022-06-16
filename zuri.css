@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+main {
+    width: 70%;
+    margin: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sedans{
+    height: 50vh;
+    width: 1440px;
+    font-weight: bold;
+    color: rgb(243, 238, 238);
+    font-size: 15px;
+    padding: 10px;
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.sedans h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+.sedans p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.suvs{
+    height: 50vh;
+    width: 1440px;
+    font-weight: bold;
+    color: rgb(243, 238, 238);
+    font-size: 15px;
+    padding: 10px;
+    background-color: hsl(184, 100%, 22%);
+}
+.suvs h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+.suvs p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.luxury{
+    height: 50vh;
+    width: 1440px;
+    font-weight: bold;
+    color: rgb(243, 238, 238);
+    font-size: 15px;
+    padding: 10px;
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.luxury h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+.luxury p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.btn1 {
+    color: hsl(31, 77%, 52%);
+    width: 100px;
+    height: 35px;
+    border-color: white;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+.btn2 {
+    color: hsl(184, 100%, 22%);
+    width: 100px;
+    height: 35px;
+    border-color: white;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+.btn3 {
+    color: hsl(179, 100%, 13%);
+    width: 100px;
+    height: 35px;
+    border-color: white;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+.btn1:active{
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn2:active{
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn3:active{
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media only screen and (max-device-width: 375px) {
+
+}
